@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --progress --colors --hot",
+    "dev": "webpack-dev-server --progress --colors --hot --port 8080 --config ./webpack.config.js ",
     "production": "webpack --progress -p"
   },
   "keywords": [],
